@@ -1,0 +1,28 @@
+
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    border: medium dashed violet;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    border: medium dashed violet;
+    margin-left: auto;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+
