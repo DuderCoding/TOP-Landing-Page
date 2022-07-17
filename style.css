@@ -22,6 +22,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: lightblue;
 }
 
 
@@ -38,6 +39,35 @@ img {
     width: 400px;
     height: 400px;
     background-color: red;
+}
+
+.boxes {
+    display: flex;
+    gap: 10px;
+    border: medium dashed red;
+    justify-content: space-evenly;
+}
+
+.single_box {
+    border: medium dashed violet;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.middle_info {
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+.image_credit {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    margin-top: 0px;
+    text-align: center;
 }
 
 li {
