@@ -35,9 +35,9 @@ img {
     flex-wrap: wrap;
 }
 
-.box {
-    width: 400px;
-    height: 400px;
+.placeholder {
+    width: 600px;
+    height: 300px;
     background-color: red;
 }
 
@@ -63,6 +63,26 @@ img {
     padding: 10px;
     text-align: center;
     font-style: italic;
+}
+
+.quote_container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    width: 400px;
+    text-align: left;
+    word-wrap: normal;
+    font-style: italic;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: bold;
 }
 
 h2 {
